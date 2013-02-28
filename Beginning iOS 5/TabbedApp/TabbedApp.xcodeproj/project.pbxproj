@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C805096416CAE24400993F77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C805096316CAE24400993F77 /* UIKit.framework */; };
+		C805096616CAE24400993F77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C805096516CAE24400993F77 /* Foundation.framework */; };
+		C805096816CAE24400993F77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C805096716CAE24400993F77 /* CoreGraphics.framework */; };
+		C805096E16CAE24400993F77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C805096C16CAE24400993F77 /* InfoPlist.strings */; };
+		C805097016CAE24400993F77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C805096F16CAE24400993F77 /* main.m */; };
+		C805097416CAE24400993F77 /* TabbedAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C805097316CAE24400993F77 /* TabbedAppAppDelegate.m */; };
+		C805097616CAE24400993F77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C805097516CAE24400993F77 /* Default.png */; };
+		C805097816CAE24400993F77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C805097716CAE24400993F77 /* Default@2x.png */; };
+		C805097A16CAE24400993F77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C805097916CAE24400993F77 /* Default-568h@2x.png */; };
+		C805097D16CAE24400993F77 /* TabbedAppFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C805097C16CAE24400993F77 /* TabbedAppFirstViewController.m */; };
+		C805097F16CAE24400993F77 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C805097E16CAE24400993F77 /* first.png */; };
+		C805098116CAE24400993F77 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C805098016CAE24400993F77 /* first@2x.png */; };
+		C805098416CAE24400993F77 /* TabbedAppSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C805098316CAE24400993F77 /* TabbedAppSecondViewController.m */; };
+		C805098616CAE24400993F77 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C805098516CAE24400993F77 /* second.png */; };
+		C805098816CAE24400993F77 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C805098716CAE24400993F77 /* second@2x.png */; };
+		C805098B16CAE24400993F77 /* TabbedAppFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C805098916CAE24400993F77 /* TabbedAppFirstViewController.xib */; };
+		C805098E16CAE24400993F77 /* TabbedAppSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C805098C16CAE24400993F77 /* TabbedAppSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C805095F16CAE24400993F77 /* TabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C805096316CAE24400993F77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C805096516CAE24400993F77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C805096716CAE24400993F77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C805096B16CAE24400993F77 /* TabbedApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabbedApp-Info.plist"; sourceTree = "<group>"; };
+		C805096D16CAE24400993F77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C805096F16CAE24400993F77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C805097116CAE24400993F77 /* TabbedApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabbedApp-Prefix.pch"; sourceTree = "<group>"; };
+		C805097216CAE24400993F77 /* TabbedAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbedAppAppDelegate.h; sourceTree = "<group>"; };
+		C805097316CAE24400993F77 /* TabbedAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppAppDelegate.m; sourceTree = "<group>"; };
+		C805097516CAE24400993F77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C805097716CAE24400993F77 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C805097916CAE24400993F77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C805097B16CAE24400993F77 /* TabbedAppFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbedAppFirstViewController.h; sourceTree = "<group>"; };
+		C805097C16CAE24400993F77 /* TabbedAppFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppFirstViewController.m; sourceTree = "<group>"; };
+		C805097E16CAE24400993F77 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C805098016CAE24400993F77 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C805098216CAE24400993F77 /* TabbedAppSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbedAppSecondViewController.h; sourceTree = "<group>"; };
+		C805098316CAE24400993F77 /* TabbedAppSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppSecondViewController.m; sourceTree = "<group>"; };
+		C805098516CAE24400993F77 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C805098716CAE24400993F77 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C805098A16CAE24400993F77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TabbedAppFirstViewController.xib; sourceTree = "<group>"; };
+		C805098D16CAE24400993F77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TabbedAppSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C805095C16CAE24400993F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C805096416CAE24400993F77 /* UIKit.framework in Frameworks */,
+				C805096616CAE24400993F77 /* Foundation.framework in Frameworks */,
+				C805096816CAE24400993F77 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C805095416CAE24400993F77 = {
+			isa = PBXGroup;
+			children = (
+				C805096916CAE24400993F77 /* TabbedApp */,
+				C805096216CAE24400993F77 /* Frameworks */,
+				C805096016CAE24400993F77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C805096016CAE24400993F77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C805095F16CAE24400993F77 /* TabbedApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C805096216CAE24400993F77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C805096316CAE24400993F77 /* UIKit.framework */,
+				C805096516CAE24400993F77 /* Foundation.framework */,
+				C805096716CAE24400993F77 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C805096916CAE24400993F77 /* TabbedApp */ = {
+			isa = PBXGroup;
+			children = (
+				C805097216CAE24400993F77 /* TabbedAppAppDelegate.h */,
+				C805097316CAE24400993F77 /* TabbedAppAppDelegate.m */,
+				C805097B16CAE24400993F77 /* TabbedAppFirstViewController.h */,
+				C805097C16CAE24400993F77 /* TabbedAppFirstViewController.m */,
+				C805097E16CAE24400993F77 /* first.png */,
+				C805098016CAE24400993F77 /* first@2x.png */,
+				C805098216CAE24400993F77 /* TabbedAppSecondViewController.h */,
+				C805098316CAE24400993F77 /* TabbedAppSecondViewController.m */,
+				C805098516CAE24400993F77 /* second.png */,
+				C805098716CAE24400993F77 /* second@2x.png */,
+				C805098916CAE24400993F77 /* TabbedAppFirstViewController.xib */,
+				C805098C16CAE24400993F77 /* TabbedAppSecondViewController.xib */,
+				C805096A16CAE24400993F77 /* Supporting Files */,
+			);
+			path = TabbedApp;
+			sourceTree = "<group>";
+		};
+		C805096A16CAE24400993F77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C805096B16CAE24400993F77 /* TabbedApp-Info.plist */,
+				C805096C16CAE24400993F77 /* InfoPlist.strings */,
+				C805096F16CAE24400993F77 /* main.m */,
+				C805097116CAE24400993F77 /* TabbedApp-Prefix.pch */,
+				C805097516CAE24400993F77 /* Default.png */,
+				C805097716CAE24400993F77 /* Default@2x.png */,
+				C805097916CAE24400993F77 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C805095E16CAE24400993F77 /* TabbedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C805099116CAE24400993F77 /* Build configuration list for PBXNativeTarget "TabbedApp" */;
+			buildPhases = (
+				C805095B16CAE24400993F77 /* Sources */,
+				C805095C16CAE24400993F77 /* Frameworks */,
+				C805095D16CAE24400993F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbedApp;
+			productName = TabbedApp;
+			productReference = C805095F16CAE24400993F77 /* TabbedApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C805095616CAE24400993F77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TabbedApp;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Andrew Wilson";
+			};
+			buildConfigurationList = C805095916CAE24400993F77 /* Build configuration list for PBXProject "TabbedApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C805095416CAE24400993F77;
+			productRefGroup = C805096016CAE24400993F77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C805095E16CAE24400993F77 /* TabbedApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C805095D16CAE24400993F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C805096E16CAE24400993F77 /* InfoPlist.strings in Resources */,
+				C805097616CAE24400993F77 /* Default.png in Resources */,
+				C805097816CAE24400993F77 /* Default@2x.png in Resources */,
+				C805097A16CAE24400993F77 /* Default-568h@2x.png in Resources */,
+				C805097F16CAE24400993F77 /* first.png in Resources */,
+				C805098116CAE24400993F77 /* first@2x.png in Resources */,
+				C805098616CAE24400993F77 /* second.png in Resources */,
+				C805098816CAE24400993F77 /* second@2x.png in Resources */,
+				C805098B16CAE24400993F77 /* TabbedAppFirstViewController.xib in Resources */,
+				C805098E16CAE24400993F77 /* TabbedAppSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C805095B16CAE24400993F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C805097016CAE24400993F77 /* main.m in Sources */,
+				C805097416CAE24400993F77 /* TabbedAppAppDelegate.m in Sources */,
+				C805097D16CAE24400993F77 /* TabbedAppFirstViewController.m in Sources */,
+				C805098416CAE24400993F77 /* TabbedAppSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C805096C16CAE24400993F77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C805096D16CAE24400993F77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C805098916CAE24400993F77 /* TabbedAppFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C805098A16CAE24400993F77 /* en */,
+			);
+			name = TabbedAppFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		C805098C16CAE24400993F77 /* TabbedAppSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C805098D16CAE24400993F77 /* en */,
+			);
+			name = TabbedAppSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C805098F16CAE24400993F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C805099016CAE24400993F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C805099216CAE24400993F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabbedApp/TabbedApp-Prefix.pch";
+				INFOPLIST_FILE = "TabbedApp/TabbedApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C805099316CAE24400993F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabbedApp/TabbedApp-Prefix.pch";
+				INFOPLIST_FILE = "TabbedApp/TabbedApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C805095916CAE24400993F77 /* Build configuration list for PBXProject "TabbedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C805098F16CAE24400993F77 /* Debug */,
+				C805099016CAE24400993F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C805099116CAE24400993F77 /* Build configuration list for PBXNativeTarget "TabbedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C805099216CAE24400993F77 /* Debug */,
+				C805099316CAE24400993F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C805095616CAE24400993F77 /* Project object */;
+}

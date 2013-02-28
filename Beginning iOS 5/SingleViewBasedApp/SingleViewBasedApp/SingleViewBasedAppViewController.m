@@ -1,18 +1,18 @@
 //
-//  ScrollerViewController.m
-//  Assignment4
+//  SingleViewBasedAppViewController.m
+//  SingleViewBasedApp
 //
-//  Created by Andrew Wilson on 2/15/13.
+//  Created by Andrew Wilson on 2/7/13.
 //  Copyright (c) 2013 Andrew Wilson. All rights reserved.
 //
 
-#import "ScrollerViewController.h"
+#import "SingleViewBasedAppViewController.h"
 
-@interface ScrollerViewController ()
+@interface SingleViewBasedAppViewController ()
 
 @end
 
-@implementation ScrollerViewController
+@implementation SingleViewBasedAppViewController
 
 - (void)viewDidLoad
 {
